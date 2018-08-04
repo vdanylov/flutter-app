@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
 
-main() {
-  runApp(MyCoolApp());
-}
+void main() => runApp(MyCoolApp());
 
 class MyCoolApp extends StatelessWidget {
-  build(context) {
+  @override
+  Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
