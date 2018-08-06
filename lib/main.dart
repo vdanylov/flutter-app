@@ -12,7 +12,7 @@ class MyCoolApp extends StatelessWidget {
         appBar: AppBar(
           title: Text('EasyList'),
         ),
-        body: ProductManager(),
+        body: ProductManager('Cucumbers'),
       ),
     );
   }
