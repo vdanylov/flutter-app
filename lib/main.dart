@@ -34,21 +34,6 @@ class _MyCoolAppState extends State<MyCoolApp> {
                   child: Text('Add product'.toUpperCase()),
                 )),
               ),
-              Column(
-                children: _products
-                    .map((product) => Card(
-                          child: Column(
-                            children: <Widget>[
-                              Image.asset('assets/food.jpg'),
-                              Container(
-                                margin: EdgeInsets.all(5.0),
-                                child: Text(product),
-                              )
-                            ],
-                          ),
-                        ))
-                    .toList(),
-              )
             ],
           )),
     );
